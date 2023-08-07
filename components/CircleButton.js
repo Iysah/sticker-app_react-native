@@ -1,10 +1,11 @@
 import { View, Pressable, StyleSheet } from 'react-native'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 
-export default function CircleButton () {
+export default function CircleButton ({ onPress }) {
+
     return (
         <View style={styles.circleButtonContainer}>
-            <Pressable style={styles.circleButton}>
+            <Pressable style={styles.circleButton} onPress={onPress}>
                 <MaterialIcons name='add' size={38} color={'#FFCFD2'} />
             </Pressable>
         </View>

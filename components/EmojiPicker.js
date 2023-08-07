@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
       justifyContent: 'space-between',
     },
     title: {
-      color: '#ffafc5',
+      color: '#000',
       fontSize: 16,
     },
     pickerContainer: {
